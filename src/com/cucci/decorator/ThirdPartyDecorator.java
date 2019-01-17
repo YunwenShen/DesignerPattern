@@ -1,7 +1,7 @@
 package com.cucci.decorator;
 
 /**
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class ThirdPartyDecorator implements IThirdPartyService {
 

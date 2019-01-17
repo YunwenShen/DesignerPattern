@@ -3,7 +3,7 @@ package com.cucci.builder;
 /**
  * 具体产品类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class Meal {
 

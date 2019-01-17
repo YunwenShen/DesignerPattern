@@ -1,7 +1,7 @@
 package com.cucci.builder;
 
 /**
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class MealA extends MealBuilder {
     @Override

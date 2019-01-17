@@ -3,7 +3,7 @@ package com.cucci.decorator;
 /**
  * 第三方引用实现类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class ThirdPartyServiceImpl implements IThirdPartyService {
     @Override

@@ -3,7 +3,7 @@ package com.cucci.decorator;
 /**
  * 第三方应用
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public interface IThirdPartyService {
 
