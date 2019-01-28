@@ -5,6 +5,8 @@ package com.cucci.state;
  **/
 public class StateTest {
     public static void main(String[] args) {
+        // 封装了复杂if-else语句，通过state来维护
+
         Work work = new Work();
         work.setHour(9);
         work.coding();
