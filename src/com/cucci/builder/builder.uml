@@ -3,54 +3,67 @@
   <ID>JAVA</ID>
   <OriginalElement>com.cucci.builder</OriginalElement>
   <nodes>
-    <node x="494.0" y="325.5">com.cucci.builder.MealA</node>
+    <node x="494.0" y="335.5">com.cucci.builder.MealA</node>
+    <node x="221.9434523809524" y="479.0">com.cucci.builder.BuilderTest</node>
     <node x="273.0" y="143.0">com.cucci.builder.MealBuilder</node>
     <node x="275.875" y="0.0">com.cucci.builder.Meal</node>
-    <node x="0.0" y="325.0">com.cucci.builder.KFCWaiter</node>
-    <node x="273.0" y="325.5">com.cucci.builder.MealB</node>
+    <node x="0.0" y="335.0">com.cucci.builder.KFCWaiter</node>
+    <node x="273.0" y="335.5">com.cucci.builder.MealB</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="com.cucci.builder.KFCWaiter" target="com.cucci.builder.MealBuilder">
+      <point x="84.33333333333337" y="-47.0" />
+      <point x="210.83333333333337" y="305.0" />
+      <point x="323.25" y="305.0" />
+      <point x="-50.25" y="61.0" />
+    </edge>
+    <edge source="com.cucci.builder.MealBuilder" target="com.cucci.builder.Meal">
+      <point x="75.375" y="-61.0" />
+      <point x="448.875" y="118.0" />
+      <point x="406.375" y="118.0" />
+      <point x="58.0" y="46.5" />
+    </edge>
+    <edge source="com.cucci.builder.BuilderTest" target="com.cucci.builder.KFCWaiter">
+      <point x="-26.75" y="-32.5" />
+      <point x="302.1934523809524" y="449.0" />
+      <point x="189.75" y="449.0" />
+      <point x="63.25" y="47.0" />
+    </edge>
     <edge source="com.cucci.builder.KFCWaiter" target="com.cucci.builder.Meal">
       <point x="-84.33333333333331" y="-47.0" />
-      <point x="42.166666666666686" y="305.0" />
-      <point x="101.06597222222226" y="305.0" />
-      <point x="101.06597222222226" y="118.0" />
+      <point x="42.166666666666686" y="285.0" />
+      <point x="121.58630952380952" y="285.0" />
+      <point x="121.58630952380952" y="118.0" />
       <point x="290.375" y="118.0" />
       <point x="-58.0" y="46.5" />
     </edge>
-    <edge source="com.cucci.builder.KFCWaiter" target="com.cucci.builder.MealBuilder">
-      <point x="84.33333333333337" y="-47.0" />
-      <point x="210.83333333333337" y="295.0" />
-      <point x="323.25" y="295.0" />
-      <point x="-50.25" y="61.0" />
-    </edge>
     <edge source="com.cucci.builder.MealA" target="com.cucci.builder.MealBuilder">
       <point x="-50.25" y="-46.5" />
-      <point x="544.25" y="295.0" />
-      <point x="423.75" y="295.0" />
+      <point x="544.25" y="305.0" />
+      <point x="423.75" y="305.0" />
       <point x="50.25" y="61.0" />
-    </edge>
-    <edge source="com.cucci.builder.MealBuilder" target="com.cucci.builder.Meal">
-      <point x="-25.125" y="-61.0" />
-      <point x="0.0" y="46.5" />
     </edge>
     <edge source="com.cucci.builder.MealB" target="com.cucci.builder.MealBuilder">
       <point x="-50.25" y="-46.5" />
-      <point x="323.25" y="305.0" />
-      <point x="356.75" y="305.0" />
+      <point x="323.25" y="315.0" />
+      <point x="356.75" y="315.0" />
       <point x="-16.75" y="61.0" />
     </edge>
+    <edge source="com.cucci.builder.BuilderTest" target="com.cucci.builder.MealA">
+      <point x="26.75" y="-32.5" />
+      <point x="355.6934523809524" y="449.0" />
+      <point x="544.25" y="449.0" />
+      <point x="-50.25" y="46.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="347.5" y="209.5" />
-  <SelectedNodes>
-    <node>com.cucci.builder.KFCWaiter</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="401.0" y="311.0" />
+  <SelectedNodes />
   <Categories>
+    <Category>Constructors</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
-    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
