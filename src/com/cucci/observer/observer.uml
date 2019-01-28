@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cucci.observer</OriginalElement>
+  <nodes>
+    <node x="311.99999999999994" y="421.0">com.cucci.observer.Boss</node>
+    <node x="594.0" y="449.0">com.cucci.observer.StockObserver</node>
+    <node x="0.0" y="449.0">com.cucci.observer.NBAObserver</node>
+    <node x="326.3796296296295" y="631.0">com.cucci.observer.ObserverTest</node>
+    <node x="274.74999999999994" y="200.0">com.cucci.observer.Observer</node>
+    <node x="329.7499999999999" y="0.0">com.cucci.observer.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cucci.observer.ObserverTest" target="com.cucci.observer.NBAObserver">
+      <point x="-53.49999999999994" y="-32.5" />
+      <point x="379.87962962962956" y="601.0" />
+      <point x="219.0" y="601.0" />
+      <point x="73.0" y="47.0" />
+    </edge>
+    <edge source="com.cucci.observer.ObserverTest" target="com.cucci.observer.StockObserver">
+      <point x="89.16666666666669" y="-32.5" />
+      <point x="522.5462962962962" y="611.0" />
+      <point x="819.0" y="611.0" />
+      <point x="75.0" y="47.0" />
+    </edge>
+    <edge source="com.cucci.observer.Boss" target="com.cucci.observer.Observer">
+      <point x="-32.75" y="-75.0" />
+      <point x="410.24999999999994" y="401.0" />
+      <point x="405.24999999999994" y="401.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.cucci.observer.Subject" target="com.cucci.observer.Observer">
+      <point x="19.83333333333337" y="75.0" />
+      <point x="468.58333333333326" y="180.0" />
+      <point x="492.24999999999994" y="180.0" />
+      <point x="87.0" y="-75.5" />
+    </edge>
+    <edge source="com.cucci.observer.Observer" target="com.cucci.observer.Subject">
+      <point x="0.0" y="-75.5" />
+      <point x="405.24999999999994" y="180.0" />
+      <point x="428.9166666666666" y="180.0" />
+      <point x="-19.833333333333314" y="75.0" />
+    </edge>
+    <edge source="com.cucci.observer.StockObserver" target="com.cucci.observer.Observer">
+      <point x="-100.0" y="-47.0" />
+      <point x="644.0" y="391.0" />
+      <point x="479.8214285714285" y="391.0" />
+      <point x="74.57142857142856" y="75.5" />
+    </edge>
+    <edge source="com.cucci.observer.NBAObserver" target="com.cucci.observer.Observer">
+      <point x="0.0" y="-47.0" />
+      <point x="146.0" y="391.0" />
+      <point x="293.39285714285705" y="391.0" />
+      <point x="-111.85714285714289" y="75.5" />
+    </edge>
+    <edge source="com.cucci.observer.ObserverTest" target="com.cucci.observer.Boss">
+      <point x="-17.833333333333314" y="-32.5" />
+      <point x="415.5462962962962" y="591.0" />
+      <point x="377.49999999999994" y="591.0" />
+      <point x="-65.5" y="75.0" />
+    </edge>
+    <edge source="com.cucci.observer.Boss" target="com.cucci.observer.Subject">
+      <point x="98.25" y="-75.0" />
+      <point x="541.25" y="401.0" />
+      <point x="546.2499999999999" y="401.0" />
+      <point x="546.2499999999999" y="180.0" />
+      <point x="508.2499999999999" y="180.0" />
+      <point x="59.5" y="75.0" />
+    </edge>
+    <edge source="com.cucci.observer.StockObserver" target="com.cucci.observer.Subject">
+      <point x="100.0" y="-47.0" />
+      <point x="844.0" y="371.0" />
+      <point x="735.7493386243385" y="371.0" />
+      <point x="735.7493386243385" y="170.0" />
+      <point x="547.9166666666665" y="170.0" />
+      <point x="99.16666666666663" y="75.0" />
+    </edge>
+    <edge source="com.cucci.observer.NBAObserver" target="com.cucci.observer.Subject">
+      <point x="-97.33333333333331" y="-47.0" />
+      <point x="48.666666666666686" y="381.0" />
+      <point x="151.4636243386243" y="381.0" />
+      <point x="151.4636243386243" y="170.0" />
+      <point x="349.58333333333326" y="170.0" />
+      <point x="-99.16666666666666" y="75.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8885869565217391" x="447.0" y="358.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
