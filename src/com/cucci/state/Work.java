@@ -3,7 +3,7 @@ package com.cucci.state;
 /**
  * 工作类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class Work {
 

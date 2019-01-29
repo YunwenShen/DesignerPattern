@@ -3,7 +3,7 @@ package com.cucci.state;
 /**
  * 睡眠状态（困得不行了）
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class SleepState extends State {
     @Override

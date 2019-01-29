@@ -3,7 +3,7 @@ package com.cucci.state;
 /**
  * 休息状态
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class RestState extends State {
     @Override

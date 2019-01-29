@@ -3,7 +3,7 @@ package com.cucci.state;
 /**
  * 晚间工作状态
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class EveningState extends State {
     @Override

@@ -1,7 +1,7 @@
 package com.cucci.state;
 
 /**
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class StateTest {
     public static void main(String[] args) {
