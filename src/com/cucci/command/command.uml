@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cucci.command</OriginalElement>
+  <nodes>
+    <node x="0.0" y="87.0">com.cucci.command.Command</node>
+    <node x="35.01666666666668" y="174.0">com.cucci.command.Waiter</node>
+    <node x="24.88611111111112" y="261.0">com.cucci.command.CommandTest</node>
+    <node x="48.166666666666686" y="0.0">com.cucci.command.Barbecuer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cucci.command.CommandTest" target="com.cucci.command.Barbecuer">
+      <point x="32.19999999999999" y="-18.5" />
+      <point x="137.5861111111111" y="236.0" />
+      <point x="152.51666666666668" y="236.0" />
+      <point x="152.51666666666668" y="62.0" />
+      <point x="129.41666666666669" y="62.0" />
+      <point x="16.25" y="18.5" />
+    </edge>
+    <edge source="com.cucci.command.CommandTest" target="com.cucci.command.Command">
+      <point x="-64.4" y="-18.5" />
+      <point x="40.986111111111114" y="236.0" />
+      <point x="24.51666666666668" y="236.0" />
+      <point x="24.51666666666668" y="149.0" />
+      <point x="22.166666666666657" y="149.0" />
+      <point x="-44.33333333333334" y="18.5" />
+    </edge>
+    <edge source="com.cucci.command.Waiter" target="com.cucci.command.Command">
+      <point x="26.75" y="-18.5" />
+      <point x="115.26666666666668" y="149.0" />
+      <point x="110.83333333333334" y="149.0" />
+      <point x="44.33333333333334" y="18.5" />
+    </edge>
+    <edge source="com.cucci.command.CommandTest" target="com.cucci.command.Waiter">
+      <point x="-32.2" y="-18.5" />
+      <point x="73.18611111111112" y="236.0" />
+      <point x="61.76666666666668" y="236.0" />
+      <point x="-26.75" y="18.5" />
+    </edge>
+    <edge source="com.cucci.command.Command" target="com.cucci.command.Barbecuer">
+      <point x="33.25" y="-18.5" />
+      <point x="99.75" y="62.0" />
+      <point x="96.91666666666669" y="62.0" />
+      <point x="-16.25" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="114.5" />
+  <SelectedNodes>
+    <node>com.cucci.command.Command</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
