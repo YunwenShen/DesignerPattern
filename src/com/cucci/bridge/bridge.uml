@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cucci.bridge</OriginalElement>
+  <nodes>
+    <node x="321.25" y="129.5">com.cucci.bridge.HandsetAddressList</node>
+    <node x="255.875" y="0.0">com.cucci.bridge.HandsetSoft</node>
+    <node x="538.25" y="129.5">com.cucci.bridge.HandsetGame</node>
+    <node x="193.0" y="259.0">com.cucci.bridge.HandsetBrandN</node>
+    <node x="0.0" y="259.0">com.cucci.bridge.HandsetBrandM</node>
+    <node x="64.25" y="115.0">com.cucci.bridge.HandsetBrand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cucci.bridge.HandsetBrandN" target="com.cucci.bridge.HandsetBrand">
+      <point x="42.75" y="-32.5" />
+      <point x="321.25" y="234.0" />
+      <point x="271.625" y="234.0" />
+      <point x="88.875" y="47.0" />
+    </edge>
+    <edge source="com.cucci.bridge.HandsetBrandM" target="com.cucci.bridge.HandsetBrand">
+      <point x="43.25" y="-32.5" />
+      <point x="129.75" y="234.0" />
+      <point x="153.125" y="234.0" />
+      <point x="-29.625" y="47.0" />
+    </edge>
+    <edge source="com.cucci.bridge.HandsetAddressList" target="com.cucci.bridge.HandsetSoft">
+      <point x="0.0" y="-32.5" />
+      <point x="419.75" y="95.0" />
+      <point x="349.625" y="95.0" />
+      <point x="18.75" y="32.5" />
+    </edge>
+    <edge source="com.cucci.bridge.HandsetGame" target="com.cucci.bridge.HandsetSoft">
+      <point x="0.0" y="-32.5" />
+      <point x="617.75" y="85.0" />
+      <point x="387.125" y="85.0" />
+      <point x="56.25" y="32.5" />
+    </edge>
+    <edge source="com.cucci.bridge.HandsetBrand" target="com.cucci.bridge.HandsetSoft">
+      <point x="59.25" y="-47.0" />
+      <point x="242.0" y="95.0" />
+      <point x="312.125" y="95.0" />
+      <point x="-18.75" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="344.0" y="187.5" />
+  <SelectedNodes>
+    <node>com.cucci.bridge.HandsetSoft</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
