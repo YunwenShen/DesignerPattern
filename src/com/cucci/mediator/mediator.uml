@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cucci.mediator</OriginalElement>
+  <nodes>
+    <node x="160.95749999999998" y="174.0">com.cucci.mediator.USA</node>
+    <node x="49.957499999999996" y="0.0">com.cucci.mediator.UnitedNations</node>
+    <node x="0.0" y="261.0">com.cucci.mediator.UnitedNationsSecurityCouncil</node>
+    <node x="51.957499999999996" y="174.0">com.cucci.mediator.Iraq</node>
+    <node x="91.9575" y="87.0">com.cucci.mediator.Country</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cucci.mediator.USA" target="com.cucci.mediator.Country">
+      <point x="0.0" y="-18.5" />
+      <point x="206.45749999999998" y="149.0" />
+      <point x="197.2575" y="149.0" />
+      <point x="46.80000000000001" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.UnitedNationsSecurityCouncil" target="com.cucci.mediator.USA">
+      <point x="112.5" y="-18.5" />
+      <point x="247.5" y="236.0" />
+      <point x="229.20749999999998" y="236.0" />
+      <point x="22.75" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.UnitedNationsSecurityCouncil" target="com.cucci.mediator.UnitedNations">
+      <point x="-112.5" y="-18.5" />
+      <point x="22.5" y="236.0" />
+      <point x="41.457499999999996" y="236.0" />
+      <point x="41.457499999999996" y="57.0" />
+      <point x="63.457499999999996" y="57.0" />
+      <point x="-67.5" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.Iraq" target="com.cucci.mediator.Country">
+      <point x="29.333333333333314" y="-18.5" />
+      <point x="125.29083333333331" y="149.0" />
+      <point x="127.05749999999999" y="149.0" />
+      <point x="-23.400000000000006" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.UnitedNations" target="com.cucci.mediator.Country">
+      <point x="40.5" y="18.5" />
+      <point x="171.45749999999998" y="67.0" />
+      <point x="189.45749999999998" y="67.0" />
+      <point x="39.0" y="-18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.UnitedNationsSecurityCouncil" target="com.cucci.mediator.Iraq">
+      <point x="-22.5" y="-18.5" />
+      <point x="112.5" y="236.0" />
+      <point x="117.9575" y="236.0" />
+      <point x="22.0" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.Iraq" target="com.cucci.mediator.UnitedNations">
+      <point x="-29.333333333333314" y="-18.5" />
+      <point x="66.62416666666668" y="67.0" />
+      <point x="90.4575" y="67.0" />
+      <point x="-40.5" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.Country" target="com.cucci.mediator.UnitedNations">
+      <point x="0.0" y="-18.5" />
+      <point x="150.45749999999998" y="67.0" />
+      <point x="144.45749999999998" y="67.0" />
+      <point x="13.5" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.UnitedNationsSecurityCouncil" target="com.cucci.mediator.Country">
+      <point x="22.5" y="-18.5" />
+      <point x="157.5" y="236.0" />
+      <point x="150.4575" y="236.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.cucci.mediator.USA" target="com.cucci.mediator.UnitedNations">
+      <point x="30.33333333333333" y="-18.5" />
+      <point x="236.79083333333332" y="149.0" />
+      <point x="229.69666666666666" y="149.0" />
+      <point x="229.69666666666666" y="67.0" />
+      <point x="198.45749999999998" y="67.0" />
+      <point x="67.5" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="135.0" y="149.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
