@@ -3,7 +3,7 @@ package com.cucci.mediator;
 /**
  * 联合国安全理事会（中介者类的具体实现）
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class UnitedNationsSecurityCouncil extends UnitedNations {
 

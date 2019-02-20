@@ -3,7 +3,7 @@ package com.cucci.mediator;
 /**
  * 中介者测试类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class MediatorTest {
 

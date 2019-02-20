@@ -3,7 +3,7 @@ package com.cucci.mediator;
 /**
  * 非中介者（国家类）
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public abstract class Country {
 

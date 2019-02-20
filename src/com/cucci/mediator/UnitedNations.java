@@ -3,7 +3,7 @@ package com.cucci.mediator;
 /**
  * 中介者抽象类 (联合国机构)
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public abstract class UnitedNations {
 

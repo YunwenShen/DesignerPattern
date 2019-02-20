@@ -3,7 +3,7 @@ package com.cucci.mediator;
 /**
  * 伊拉克（国家类的具体实现）
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class Iraq extends Country {
 
