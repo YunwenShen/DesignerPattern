@@ -3,7 +3,7 @@ package com.cucci.interpreter;
 /**
  * 解释器测试类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class InterpreterTest {
 

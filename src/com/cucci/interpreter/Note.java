@@ -3,7 +3,7 @@ package com.cucci.interpreter;
 /**
  * 音符类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class Note extends Expression {
     @Override

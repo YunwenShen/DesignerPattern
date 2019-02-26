@@ -3,7 +3,7 @@ package com.cucci.interpreter;
 /**
  * 演奏内容
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class PlayContext {
 

@@ -3,7 +3,7 @@ package com.cucci.interpreter;
 /**
  * 音速类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public class Speed extends Expression {
 

@@ -3,7 +3,7 @@ package com.cucci.interpreter;
 /**
  * 表达式类
  *
- * @author shenyw@citycloud.com.cn
+ * @author shenyw
  **/
 public abstract class Expression {
 
