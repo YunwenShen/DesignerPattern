@@ -36,3 +36,6 @@ hs_err_pid*
 out/
 untitled104.iml
 /.idea/vcs.xml
+/.idea/dictionaries/yunwen.xml
+.idea/
+DesignerPattern.iml
