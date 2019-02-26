@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cucci.interpreter</OriginalElement>
+  <nodes>
+    <node x="299.0" y="143.0">com.cucci.interpreter.Expression</node>
+    <node x="329.5" y="0.0">com.cucci.interpreter.PlayContext</node>
+    <node x="0.0" y="286.0">com.cucci.interpreter.Speed</node>
+    <node x="598.0" y="286.0">com.cucci.interpreter.Scale</node>
+    <node x="299.0" y="286.0">com.cucci.interpreter.Note</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cucci.interpreter.Scale" target="com.cucci.interpreter.Expression">
+      <point x="0.0" y="-32.5" />
+      <point x="737.5" y="261.0" />
+      <point x="531.5" y="261.0" />
+      <point x="93.0" y="46.5" />
+    </edge>
+    <edge source="com.cucci.interpreter.Note" target="com.cucci.interpreter.Expression">
+      <point x="0.0" y="-32.5" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="com.cucci.interpreter.Speed" target="com.cucci.interpreter.Expression">
+      <point x="0.0" y="-32.5" />
+      <point x="139.5" y="261.0" />
+      <point x="345.5" y="261.0" />
+      <point x="-93.0" y="46.5" />
+    </edge>
+    <edge source="com.cucci.interpreter.Expression" target="com.cucci.interpreter.PlayContext">
+      <point x="0.0" y="-46.5" />
+      <point x="0.0" y="46.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="401.0" y="196.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
