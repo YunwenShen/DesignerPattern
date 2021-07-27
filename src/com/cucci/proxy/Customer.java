@@ -5,5 +5,9 @@ package com.cucci.proxy;
  *
  * @author shenyw
  **/
-public class Customer {
+public class Customer implements BuyHouse {
+    @Override
+    public void buy() {
+        System.out.println("我付钱了");
+    }
 }

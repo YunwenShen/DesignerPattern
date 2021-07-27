@@ -6,4 +6,6 @@ package com.cucci.proxy;
  * @author shenyw
  **/
 public interface BuyHouse {
+
+    void buy();
 }
